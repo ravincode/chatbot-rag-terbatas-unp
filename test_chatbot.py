@@ -16,11 +16,11 @@ def uji_perbandingan_intent():
 
     test_cases = [
         ("halo selamat pagi", "greeting"),
-        ("siapa rektor unp saat ini", "rektor_unp"),
+        ("siapa rektor unp saat ini", "rektor_unp","Rektor of unp"),
         ("siapa ketua kampus unp", "rektor_unp"),              # Uji sinonim 'ketua kampus' -> rektor
         ("dimana cek jadwla perkuliahan", "jadwal_kuliah"),    # Uji typo 'jadwla'
         ("letak kampus utama unp dimana", "lokasi_kampus"),    # Uji sinonim 'letak' -> lokasi
-        ("cara hubungi admin akademik kampus", "kontak_admin"),
+        ("cara hubungi admin akademik kampus", "kontak_admin","Admin contact"),
         ("terima kasih atas bantuannya", "terima_kasih"),
         ("sampai jumpa lagi", "goodbye"),
         ("bagaimana cuaca di kota padang hari ini", None),
