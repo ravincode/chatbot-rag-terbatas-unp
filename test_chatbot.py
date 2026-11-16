@@ -29,7 +29,7 @@ def uji_perbandingan_intent():
     benar_rule = 0
     benar_tfidf = 0
 
-    for teks, expected in test_cases:
+    for teks, expected, *_ in test_cases:
         hasil_rule = chatbot.match_intent_rule_based(teks)
         intent_raw, _, skor = chatbot.match_intent_tfidf(teks)
         hasil_tfidf = intent_raw if skor >= chatbot.T_HIGH else None
