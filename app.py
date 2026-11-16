@@ -48,6 +48,7 @@ STOPWORDS_ID = {
 SINONIM_MAP = {
     "uang semester": "ukt",
     "uang semesteran": "ukt",
+    "biaya semester": "ukt",
     "biaya kuliah": "ukt",
     "uang kuliah": "ukt",
     "spp": "ukt",
@@ -62,6 +63,7 @@ SINONIM_MAP = {
     "perpus": "pustaka perpustakaan",
     "pimpinan": "rektor",
     "ketua kampus": "rektor rektor unp",
+    "kepala kampus": "rektor rektor unp",
     "letak": "lokasi alamat",
     "posisi": "lokasi alamat",
     "lupa password": "lupa kata sandi kendala login",
